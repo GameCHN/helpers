@@ -1,15 +1,18 @@
 {
-	"name": "ycms/helpers",
-	"description": "",
-	"authors": [
-		{
-			"name": "YCMS Labs",
-			"email": "ycms.net@gmail.com"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"YCMS\\": ""
-		}
-	}
+  "name": "ycms/helpers",
+  "description": "",
+  "authors": [
+    {
+      "name": "YCMS Labs",
+      "email": "ycms.net@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "YCMS\\": ""
+    },
+    "files": [
+      "helpers.php"
+    ]
+  }
 }
