@@ -9,7 +9,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "YCMS\\": ""
+      "YCMS\\": "src/"
     },
     "files": [
       "helpers.php"

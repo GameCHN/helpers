@@ -339,7 +339,7 @@ namespace {
         function asset($path, $secure = null)
         {
             return app('url')->asset('static/' . preg_replace("/^static\//", '', $path), $secure);
-    }
-});
+        }
+    });
 
 }
